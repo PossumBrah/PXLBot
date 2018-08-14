@@ -1,0 +1,22 @@
+{
+  "name": "pxlbot",
+  "version": "1.0.0",
+  "description": "A bot to serve the Pixel Vault Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sprunt",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "mongoose": "^5.2.7",
+    "ms": "^2.1.1",
+    "request": "^2.87.0",
+    "superagent": "^3.8.3"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
